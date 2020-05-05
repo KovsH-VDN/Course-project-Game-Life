@@ -1,0 +1,79 @@
+﻿<Window x:Class="Life.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Life"
+        mc:Ignorable="d"
+        Style="{StaticResource window}"
+        MouseLeftButtonDown="Move"
+        WindowStartupLocation="CenterScreen"
+        Height="330" MinHeight="330"
+        Width="300" MinWidth="300">
+    
+    <Grid>
+        <MediaElement x:Name="music" Source="Music/happy.mp3" LoadedBehavior="Play"></MediaElement>
+        <Rectangle 
+            Fill="#FF01041F"
+            Opacity="0.85">
+        </Rectangle>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Label
+                    HorizontalAlignment="Center"
+                    FontSize="15"
+                    Foreground="DeepSkyBlue">
+                    Life
+                </Label>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource WrapButtonStyle}" Click="Minimized"/>
+                    <Button Style="{StaticResource ExpandButtonStyle}" Click="Maximized"/>
+                    <Button Style="{StaticResource CloseButtonStyle}" IsCancel="True" Click="Exit"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <StackPanel
+                    VerticalAlignment="Center"
+                    Grid.Column="1"
+                    Grid.Row="1">
+                    <Button 
+                        Click="NewGame"
+                        Style="{StaticResource MainMenuButton}"
+                        FontSize="20">
+                        Играть
+                    </Button>
+                    <Button 
+                        Click="NewSetting"
+                        Style="{StaticResource MainMenuButton}"
+                        FontSize="20">
+                        Настройки
+                    </Button>
+                    <Button 
+                        Click="Exit"
+                        Style="{StaticResource MainMenuButton}"
+                        FontSize="20">
+                        Выход
+                    </Button>
+                </StackPanel>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

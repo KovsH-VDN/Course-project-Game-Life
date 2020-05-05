@@ -1,0 +1,96 @@
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.csprojResolveAssemblyReference.cache
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Game.g.cs
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\MainMenu.g.cs
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Settings.g.cs
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\App.g.cs
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life_MarkupCompile.cache
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life_MarkupCompile.lref
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Life.exe.config
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Life.exe
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Life.pdb
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\App.baml
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Game.baml
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\MainMenu.baml
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Settings.baml
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.g.resources
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.Properties.Resources.resources
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.csproj.GenerateResource.Cache
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.csproj.CoreCompileInputs.cache
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.exe
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life.pdb
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\CommonServiceLocator.dll
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Prism.dll
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Prism.Wpf.dll
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\System.ValueTuple.dll
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Prism.pdb
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Prism.xml
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Prism.Wpf.pdb
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Prism.Wpf.xml
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\System.ValueTuple.xml
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Life.exe.config
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Life.exe
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Life.pdb
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\CommonServiceLocator.dll
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Prism.dll
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Prism.Wpf.dll
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\System.ValueTuple.dll
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Prism.pdb
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Prism.xml
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Prism.Wpf.pdb
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Prism.Wpf.xml
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\System.ValueTuple.xml
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.csprojResolveAssemblyReference.cache
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Game.g.cs
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\MainMenu.g.cs
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Settings.g.cs
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\App.g.cs
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life_MarkupCompile.cache
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life_MarkupCompile.lref
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\App.baml
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Game.baml
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\MainMenu.baml
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Settings.baml
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.g.resources
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.Properties.Resources.resources
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.csproj.GenerateResource.Cache
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.csproj.CoreCompileInputs.cache
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.exe
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life.pdb
+C:\Users\KoVsH\source\repos\Life Copies\Life\obj\Debug\Life_Content.g.cs
+C:\Users\KoVsH\source\repos\Life Copies\Life\bin\Debug\Music\happy.mp3
+C:\Users\KoVsH\source\repos\Life\Life\bin\Debug\Music\happy.mp3
+C:\Users\KoVsH\source\repos\Life\Life\obj\Debug\Life_Content.g.cs
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Music\happy.mp3
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Life.exe.config
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Life.exe
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Life.pdb
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\CommonServiceLocator.dll
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Prism.dll
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Prism.Wpf.dll
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\System.ValueTuple.dll
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Prism.pdb
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Prism.xml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Prism.Wpf.pdb
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\Prism.Wpf.xml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\bin\Debug\System.ValueTuple.xml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.csprojResolveAssemblyReference.cache
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Game.g.cs
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\MainMenu.g.cs
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Settings.g.cs
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\App.g.cs
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life_Content.g.cs
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life_MarkupCompile.cache
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life_MarkupCompile.lref
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\App.baml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Game.baml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\MainMenu.baml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Settings.baml
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.g.resources
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.Properties.Resources.resources
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.csproj.GenerateResource.Cache
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.csproj.CoreCompileInputs.cache
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.exe
+C:\Users\KoVsH\source\repos\Домашние задания\WPF\Life\Life\obj\Debug\Life.pdb

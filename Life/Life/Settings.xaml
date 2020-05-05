@@ -1,0 +1,232 @@
+﻿<Window x:Class="Life.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Life"
+        mc:Ignorable="d"
+        Style="{StaticResource window}"
+        MouseLeftButtonDown="Move"
+        WindowStartupLocation="CenterScreen"
+        Height="330" MinHeight="330"
+        Width="300" MinWidth="300">
+    <Grid>
+        <Rectangle 
+            Fill="#FF01041F"
+            Opacity="0.85">
+        </Rectangle>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Label
+                    HorizontalAlignment="Center"
+                    FontSize="15"
+                    Foreground="DeepSkyBlue">
+                    Настройки
+                </Label>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource WrapButtonStyle}" Click="Minimized"/>
+                    <Button Style="{StaticResource ExpandButtonStyle}" Click="Maximized"/>
+                    <Button Style="{StaticResource CloseButtonStyle}" IsCancel="True" Click="Exit"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+
+                
+                <Border 
+                    Margin="5,13,5,5"
+                    Grid.ColumnSpan="2"
+                    BorderThickness="2"
+                    CornerRadius="3,3,3,3">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Offset="0" Color="#FFC80000"/>
+                            <GradientStop Offset="0.3" Color="Transparent"/>
+                            <GradientStop Offset="0.7" Color="Transparent"/>
+                            <GradientStop Offset="1" Color="#FFC80000"/>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                    
+                    
+
+                    <StackPanel
+                        VerticalAlignment="Stretch"
+                        Grid.ColumnSpan="2"
+                        Margin="3">
+                        <RadioButton
+                            Style="{StaticResource SettingRadButton}"
+                            IsChecked="{Binding Eight}">
+                            8 соседей
+                        </RadioButton>
+                        <RadioButton
+                            Style="{StaticResource SettingRadButton}"
+                            IsChecked="{Binding Four}">
+                            4 соседа
+                        </RadioButton>
+                    </StackPanel>
+                </Border>
+                <Label
+                    Grid.ColumnSpan="2"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Foreground="Yellow">
+                    Количество соседей
+                </Label>
+
+                <Label
+                    Style="{StaticResource SettingLable}"
+                    Target="{Binding ElementName=widthField}"
+                    Grid.Row="1">
+                    Ширина поля:
+                </Label>
+                <TextBox
+                    Text="{Binding FieldColumn}"
+                    Style="{StaticResource SettingTextBox}"
+                    x:Name="widthField"
+                    HorizontalAlignment="Right"
+                    Grid.Row="1"
+                    Width="40">
+                </TextBox>
+
+                <Label
+                    Style="{StaticResource SettingLable}"
+                    Target="{Binding ElementName=heigthField}"
+                    Grid.Row="1"
+                    Grid.Column="1">
+                    Высота поля:
+                </Label>
+                <TextBox
+                    Text="{Binding FieldRow}"
+                    Style="{StaticResource SettingTextBox}"
+                    x:Name="heigthField"
+                    HorizontalAlignment="Right"
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    Width="40">
+
+                </TextBox>
+
+                <Label
+                    Style="{StaticResource SettingLable}"
+                    Grid.Row="2">
+                    Диапазон выживания:
+                </Label>
+                <Grid Grid.Column="1"
+                      Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+                        Style="{StaticResource SettingLable}"
+                        Target="{Binding ElementName=minAlive}">
+                        От:
+                    </Label>
+                    <TextBox
+                        Text="{Binding MinAlive}"
+                        Style="{StaticResource SettingTextBox}"
+                        x:Name="minAlive"
+                        HorizontalAlignment="Right"
+                        Grid.Row="3"
+                        Width="40"/>
+
+
+                    <Label 
+                        Style="{StaticResource SettingLable}" 
+                        Target="{Binding ElementName=maxAlive}"
+                        Grid.Column="1">
+                        До:
+                    </Label>
+                    <TextBox
+                        Text="{Binding MaxAlive}"
+                        Style="{StaticResource SettingTextBox}"
+                        x:Name="maxAlive"
+                        HorizontalAlignment="Right"
+                        Grid.Column="1"
+                        Grid.Row="3"
+                        Width="40"/>
+
+                </Grid>
+
+                <Label
+                    Style="{StaticResource SettingLable}"
+                    Grid.Row="3">
+                    Диапазон рождения:
+                </Label>
+                <Grid Grid.Column="1"
+                      Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+                        Style="{StaticResource SettingLable}"
+                        Target="{Binding ElementName=minBorn}">
+                        От:
+                    </Label>
+                    <TextBox
+                        Text="{Binding MinBorn}"
+                        Style="{StaticResource SettingTextBox}"
+                        x:Name="minBorn"
+                        HorizontalAlignment="Right"
+                        Grid.Row="3"
+                        Width="40"/>
+
+
+                    <Label
+                        Style="{StaticResource SettingLable}" 
+                        Target="{Binding ElementName=maxBorn}"
+                        Grid.Column="1">
+                        До:
+                    </Label>
+                    <TextBox
+                        Text="{Binding MaxBorn}"
+                        Style="{StaticResource SettingTextBox}"
+                        x:Name="maxBorn"
+                        HorizontalAlignment="Right"
+                        Grid.Column="1"
+                        Grid.Row="3"
+                        Width="40"/>
+                </Grid>
+
+                <Button 
+                    Style="{StaticResource MainMenuButton}"
+                    Height="35"
+                    Grid.Row="6"
+                    Click="OkBack"
+                    FontSize="20">
+                    ОК
+                </Button>
+                <Button 
+                    Style="{StaticResource MainMenuButton}"
+                    Height="35"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Click="CancelBack"
+                    FontSize="20" Margin="1,4">
+                    Отмена
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

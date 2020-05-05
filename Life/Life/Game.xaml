@@ -1,0 +1,121 @@
+﻿<Window x:Class="Life.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Life"
+        mc:Ignorable="d"
+        x:Name="GameWindow"
+        Style="{StaticResource window}"
+        MouseLeftButtonDown="Move"
+        WindowStartupLocation="CenterScreen"
+        Height="370" MinHeight="370"
+        Width="300" MinWidth="300">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Rectangle 
+                Grid.RowSpan="2"
+                Fill="#FF00001E"
+                Opacity="0.85">
+            </Rectangle>
+            <Rectangle 
+                Grid.Row="2"
+                Fill="#FF001E00"
+                Opacity="0.85">
+            </Rectangle>
+            <Grid>
+                <Label
+                    HorizontalAlignment="Center"
+                    FontSize="15"
+                    Foreground="DeepSkyBlue">
+                    Игра
+                </Label>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource WrapButtonStyle}" Click="Minimized"/>
+                    <Button Style="{StaticResource ExpandButtonStyle}" Click="Maximized"/>
+                    <Button Style="{StaticResource CloseButtonStyle}" Click="Exit"/>
+                </StackPanel>
+            </Grid>
+
+            <ItemsControl 
+                HorizontalContentAlignment="Stretch"
+                VerticalContentAlignment="Stretch"
+                Background="Transparent" 
+                Grid.Row="1" 
+                ItemsSource="{Binding MyCells}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid  Rows="{Binding FieldRow}" Columns="{Binding FieldColumn}"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <CheckBox
+                                Style="{StaticResource Cell}"
+                                IsChecked="{Binding Life}"
+                                MouseEnter="IsCheckedBoxis"
+                                PreviewMouseDown="Leave">
+                            </CheckBox>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <StackPanel
+                Grid.Row="2"
+                Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+                <Button 
+                    ToolTip="Заполнить поле случайными клетками"
+                    Height="35"
+                    Width="35"
+                    Style="{StaticResource GameButton}"
+                    Command="{Binding RandFillingField}"
+                    Content="{StaticResource Random}"/>
+                <Button 
+                    ToolTip="Очистить поле"
+                    Height="35"
+                    Width="35"
+                    Style="{StaticResource GameButton}"
+                    Command="{Binding ClearField}"
+                    Content="{StaticResource Clear}"/>
+                <Button 
+                    ToolTip="Остановить/запустить"
+                    Height="35"
+                    Width="35"
+                    Style="{StaticResource GameButton}"
+                    Command="{Binding PausePlay}"
+                    CommandParameter="{Binding ElementName=GameWindow}"
+                    Content="{StaticResource PausePlay}"/>
+                <Button 
+                    ToolTip="Следующий кадр"
+                    Height="35"
+                    Width="35"
+                    Style="{StaticResource GameButton}"
+                    Command="{Binding NextFrame}"
+                    Content="{StaticResource NextFrame}"/>
+            </StackPanel>
+
+            <Button 
+                Grid.Row="2"
+                Height="35"
+                Width="35"
+                Margin="3,1,0,0"
+                Click="Back"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                ToolTip="Главное меню"
+                Style="{StaticResource GameButton}"
+                Command="{Binding RandFillingField}"
+                Content="{StaticResource Back}"/>
+        </Grid>
+    </Grid>
+</Window>
